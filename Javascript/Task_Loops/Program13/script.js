@@ -5,7 +5,7 @@
 let age=prompt("Enter age");
 
 switch(age) {
-    case "age"<=12:
+    case age<=12:
         console.log(age + " Child")
         break
 
