@@ -1,0 +1,6 @@
+Pseudo Class Selector :
+
+1. link
+2. visited
+3. hover        ===   it will work on all tags but rest will work on only anchor tag(on links)
+4. active

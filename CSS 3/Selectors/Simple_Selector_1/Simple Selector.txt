@@ -1,0 +1,8 @@
+Simple / Core Selector's:
+
+
+1. Tag Selector.            3rd Priority
+2. Id Selector.             1st Priority
+3. Class Selector.          2nd Priority
+4. Group Selector.          4th Priority
+5. Universal Selector.      5th Priority

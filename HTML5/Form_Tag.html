@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Tag</title>
+  </head>
+  <body>
+    <!-- Forms are used to collect user input  -->
+
+    <!-- type :  it reffers to what type of data the input box is accepting -->
+    <!-- name :  name attribute is used to submit the data which is entered in the input tag to url      -->
+    <!-- for and id attribute is used to bind/connect input and label tag by using same name  -->
+
+    <form action="">
+      <label for="fn">Enter First Name: </label>
+      <input type="text" name="First_Name" id="fn" placeholder="Enter Name" />
+
+      <br />
+      <br />
+
+      <label for="ln">Enter Last Name: </label>
+      <input type="text" name="Last_Name" id="ln" placeholder="Enter Surname" />
+
+      <br />
+      <br />
+
+      <label>Gender: </label>
+
+      <input type="radio" name="gender" id="m" />
+      <label for="m">Male </label>
+
+      <input type="radio" name="gender" id="f" />
+      <label for="f">Female</label>
+      
+      <input type="radio" name="gender" id="o" />
+      <label for="o">Others</label>
+
+      <br />
+      <br />
+
+      <label for="age">Age: </label>
+      <input type="number" name="age" id="age" />
+
+      <br />
+      <br />
+
+      <label for="db">Date of Birth: </label>
+      <input type="date" name="dob" id="db" />
+
+      <br />
+      <br />
+
+      <label for="email">Email: </label>
+      <input type="email" name="mail" id="email" />
+
+      <br />
+      <br />
+
+      <label for="password1">Password: </label>
+      <input type="password" name="pass1" id="password1" />
+
+      <br />
+      <br />
+
+      <label for="password2">Retype Password: </label>
+      <input type="password" name="pass2" id="password2" />
+
+      <br />
+      <br />
+
+      <label for="phnum">Phone Number: </label>
+      <select name="country-code" id="phnum">
+        <option value="+91">+91 India (Bharat)</option>
+        <option value="+92">+92 Pakistan (Katora)</option>
+        <option value="+142">+142</option>
+        <option value="+32">+32</option>
+        <option value="+44">+44</option>
+        <option value="+1">+1</option>
+        <option value="+65">+65</option>
+      </select>
+      <input
+        type="tel"
+        name="phone-number"
+        id="phnum"
+        placeholder="Enter Your Phone Number"
+      />
+
+      <br />
+      <br />
+
+      <label for="state">State: </label>
+      <select name="States" id="state">
+        <option value="">-----Select Your State or UT-----</option>
+        <option value="Andhra Pradesh">Andhra Pradesh</option>
+        <option value="">Arunachal Pradesh</option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value="Tripura">Tripura</option>
+        <option value="Uttar Pradesh">Uttar Pradesh</option>
+        <option value="Uttrakhand">Uttrakhand</option>
+        <option value="West Bengal">West Bengal</option>
+      </select>
+
+
+      <br>
+      <br>
+
+      <label for="pc">Pincode: </label>
+      <input type="tel" name="Pincode" id="pc">
+
+      <br>
+      <br>
+
+      <label>Hobbies: </label>
+
+      <input type="checkbox" name="music" id="ms">
+      <label for="ms">Music</label>
+
+      <input type="checkbox" name="movies" id="mv">
+      <label for="mv">Movies</label>
+
+      <input type="checkbox" name="sports" id="sw">
+      <label for="sw">Swimming</label>
+
+      <input type="checkbox" name="Cricket" id="cri">
+      <label for="cri">Cricket</label>
+
+      <input type="checkbox" name="Travel" id="tra">
+      <label for="tra">Travel</label>
+      <br>
+      <br>
+
+      <button>Submit</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Element Selector</title>
+    <style>
+        p::first-line{
+            background-color: red;
+            color: aqua;
+        }
+
+        h1::first-letter{
+            background-color: purple;
+        }
+
+        p::selection{
+            background-color: chartreuse;
+        }
+
+        ul li{
+            color: red;
+        }
+
+        ul li::marker{
+            color: blue;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- firstline
+    firstletter
+    marker
+    selection -->
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quam quo repellat aliquid aperiam, enim doloremque dolorum aut aliquam illo odio fugiat repellendus quod ut ex vitae molestiae blanditiis beatae ipsam commodi esse impedit? Quia, numquam quaerat esse neque molestias aliquid praesentium excepturi. Beatae nemo atque perferendis sunt. Iure, quaerat.
+    </p>
+
+    <h1>Hello Good Afternoon</h1>
+
+    <ul type="i">
+        <li>Get to know us</li>
+        <li>About us</li>
+        <li>Careers</li>
+        <li>Press Releases</li>
+        <li>Amazon Science</li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,7 @@
+Combinator Selector's:
+
+
+1. Decendent Selector.              3rd Priority
+2. Child Selector.                  1st Priority
+3. Adjacent Sibling Selector.       2nd Priority
+4. General Sibling Selector.        4th Priority

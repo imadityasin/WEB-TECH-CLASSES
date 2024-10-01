@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions</title>
+    <style>
+        .box{
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            border: 2px solid black;
+            display: inline-block;
+        }
+
+        #parent{
+            height: 500px;
+            width: 900px;
+            background-color: black;
+        }
+
+        .box{
+            background-color: yellow;
+            /* position: static; */
+            /* position: relative; */
+            position: absolute;
+            top: 100px;
+            left: 100px;
+        }
+    </style>
+</head>
+<body>
+    position: static : IT IS 
+    <div id="parent">
+        <div class="box box1">box1</div>
+        <div class="box box2">box2</div>
+        <div class="box box3">box3</div>
+    </div>
+</body>
+</html>
