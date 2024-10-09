@@ -4,18 +4,19 @@
 function addition(a,b) {   
         console.log(a+b);
     }
+addition(100,200)
 
 // Ananomous Function.
 let substraction = function(a,b) {
     console.log(a-b);
     }
-add(100,200);
+substraction(100,200);
 
 // Arrow Function.
 let multiplication = (a,b) => {
     console.log(a*b);
 }
-add(300,400);
+multiplication(300,400);
 
 // Nested Function.
 
