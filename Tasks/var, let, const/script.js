@@ -1,4 +1,4 @@
-// var example
+                                        // var example
 var rollNo = 5;
 
 // In var we can redeclare and reinitilize again and again
@@ -10,7 +10,7 @@ console.log(rollNo);
 
 // =============================================================================================
 
-// Let Example
+                                        // Let Example
 let studentID = 5;
 
 // In var we cant redeclare
@@ -25,7 +25,7 @@ console.log(studentID);
 
 
 // ================================================================================================
-// const Example 
+                                        // const Example 
  const TeacherID = 101;
 
 //  const TeacherID = 50;    -------- This redeclaration is not possible in const. 
