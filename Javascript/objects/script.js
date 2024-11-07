@@ -23,3 +23,16 @@ console.log(emp.empAge);
 console.log(emp.empId);
 console.log(emp.empSkills[1]);
 console.log(emp.empExp.infosys);
+
+
+// Another way to use Objects
+// employee onj
+
+let emp1 = {
+    "emp-Id" : 1234,
+    "#empName" : "Smith",
+    emp$Age : 30,
+    emp_Availability : true,
+    "emp&Skills" : ["html", "css", "js"];
+    "emp@Dob" : "23-05-1992"; 
+}
